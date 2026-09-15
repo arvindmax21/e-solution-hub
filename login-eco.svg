@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#A5D6A7"/>
+    </linearGradient>
+    <linearGradient id="lGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#43A047"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="360" height="360" rx="30" fill="url(#lGrad)"/>
+  <circle cx="200" cy="180" r="110" fill="#FFFFFF" opacity="0.9"/>
+  <!-- User Lock Eco Icon -->
+  <path d="M 160 180 L 160 140 A 40 40 0 0 1 240 140 L 240 180" fill="none" stroke="#2E7D32" stroke-width="12" stroke-linecap="round"/>
+  <rect x="140" y="170" width="120" height="100" rx="16" fill="url(#lGreen)"/>
+  <circle cx="200" cy="215" r="12" fill="#FFFFFF"/>
+  <path d="M 200 225 L 200 245" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <!-- Leaf accent -->
+  <path d="M 230 190 Q 255 170 260 195 Q 240 210 230 190 Z" fill="#81C784"/>
+</svg>

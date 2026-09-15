@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <!-- Motherboard Circuit -->
+  <rect x="40" y="30" width="220" height="130" rx="8" fill="#1B4332" stroke="#43A047" stroke-width="4"/>
+  <!-- Circuit Traces -->
+  <path d="M 60 50 L 100 50 L 120 70 L 170 70" stroke="#81C784" stroke-width="3" fill="none"/>
+  <circle cx="60" cy="50" r="4" fill="#81C784"/>
+  <circle cx="170" cy="70" r="4" fill="#81C784"/>
+  
+  <path d="M 70 140 L 110 140 L 130 110 L 200 110" stroke="#66BB6A" stroke-width="3" fill="none"/>
+  <circle cx="70" cy="140" r="4" fill="#66BB6A"/>
+  
+  <!-- RAM Stick -->
+  <rect x="180" y="45" width="65" height="100" rx="4" fill="#2E7D32" stroke="#E8F5E9" stroke-width="2"/>
+  <rect x="188" y="55" width="20" height="15" fill="#37474F"/>
+  <rect x="215" y="55" width="20" height="15" fill="#37474F"/>
+  <rect x="188" y="80" width="20" height="15" fill="#37474F"/>
+  <rect x="215" y="80" width="20" height="15" fill="#37474F"/>
+
+  <text x="150" y="205" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">PC Components &amp; Circuits</text>
+</svg>

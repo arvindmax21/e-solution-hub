@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login | E-Solution Hub</title>
+    <meta name="description" content="Access your E-Solution Hub user account to track submitted e-waste items and manage buyback requests.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">E</div>
+                <div>
+                    <span>E-Solution Hub</span>
+                    <span class="logo-sub">Sustainable Tech Marketplace</span>
+                </div>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger-label" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Buy E-Waste</a>
+                <a href="sell.html" class="nav-link">Sell E-Waste</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link active">Login</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="sell.html" class="btn btn-primary btn-sm">Sell E-Waste</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>User Account Login</h1>
+                <p>Manage your submitted e-waste items, track buyback requests, and access your profile.</p>
+            </div>
+        </section>
+
+        <!-- LOGIN FORM WRAPPER -->
+        <section class="section-padding">
+            <div class="container">
+
+                <div class="auth-wrapper">
+                    <!-- Left: Graphic Side -->
+                    <div class="auth-side-graphic">
+                        <div style="width: 180px; height: 180px; margin-bottom: 1.5rem;">
+                            <img src="login-eco.svg" alt="Eco Security Graphic">
+                        </div>
+                        <h2>Join the Eco Movement</h2>
+                        <p>Turn old electronic clutter into green value while promoting responsible recycling.</p>
+                    </div>
+
+                    <!-- Right: Auth Form -->
+                    <div class="auth-form-container">
+                        <h2 style="margin-bottom: 0.5rem;">Welcome Back</h2>
+                        <p style="margin-bottom: 1.5rem;">Please enter your credentials to login.</p>
+
+                        <div class="demo-banner" style="font-size: 0.8rem; margin-bottom: 1.5rem;">
+                            <span>⚠️ <strong>Demo Interface:</strong> Authentication is not connected to a backend server.</span>
+                        </div>
+
+                        <form action="#" method="get" onsubmit="alert('Demo Login: Static UI prototype tested!'); return false;">
+                            <div class="form-group">
+                                <label class="form-label" for="login-email">Email Address</label>
+                                <input type="email" id="login-email" class="form-control" placeholder="user@example.com" value="user@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="login-password">Password</label>
+                                <input type="password" id="login-password" class="form-control" placeholder="••••••••" value="password123" required>
+                            </div>
+
+                            <div class="auth-options">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: var(--main-text);">
+                                    <input type="checkbox" checked> Remember Me
+                                </label>
+                                <a href="#" onclick="alert('Demo Action: Password reset flow UI demonstration.'); return false;" style="color: var(--primary-green); font-weight: 600;">Forgot Password?</a>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" style="padding: 1rem;">Login</button>
+                        </form>
+
+                        <div class="auth-links">
+                            Don't have an account yet? <a href="#" onclick="alert('Demo Action: Account registration UI demonstration.'); return false;">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: var(--white); margin-bottom: 1rem;">
+                        <div class="logo-icon">E</div>
+                        <span>E-Solution Hub</span>
+                    </a>
+                    <p>"Turn E-Waste into a Better Future."</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Buy E-Waste</a></li>
+                        <li><a href="sell.html">Sell E-Waste</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support &amp; Portal</h4>
+                    <ul class="footer-links">
+                        <li><a href="policy.html">E-Waste Policy</a></li>
+                        <li><a href="login.html">User Login</a></li>
+                        <li><a href="admin-login.html">Admin Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>📍 Pune, Maharashtra, India</p>
+                    <p>✉️ support@esolutionhub.example</p>
+                    <p>📞 +91 90000 00000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 E-Solution Hub. Conceptual College Portfolio Project.</div>
+                <div>Built with <strong>HTML5 &amp; CSS3</strong> | GitHub Pages Ready</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

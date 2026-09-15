@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <!-- Printer Body -->
+  <rect x="50" y="70" width="200" height="80" rx="10" fill="#1B4332" stroke="#2E7D32" stroke-width="3"/>
+  <!-- Paper Feed Upper -->
+  <rect x="80" y="30" width="140" height="55" rx="4" fill="#E8F5E9" stroke="#81C784" stroke-width="2"/>
+  <line x1="95" y1="45" x2="205" y2="45" stroke="#43A047" stroke-width="2"/>
+  <line x1="95" y1="55" x2="185" y2="55" stroke="#43A047" stroke-width="2"/>
+
+  <!-- Output Tray Lower -->
+  <rect x="70" y="140" width="160" height="35" rx="4" fill="#FFFFFF" stroke="#43A047" stroke-width="2"/>
+  <!-- Status Lights -->
+  <circle cx="225" cy="95" r="4" fill="#66BB6A"/>
+  <circle cx="235" cy="95" r="4" fill="#81C784"/>
+  
+  <text x="150" y="205" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">Printers &amp; Scanners</text>
+</svg>

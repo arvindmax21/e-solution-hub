@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C8E6C9" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43A047"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#1B4332" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Circle -->
+  <circle cx="300" cy="250" r="210" fill="url(#bgGrad)" />
+  <circle cx="300" cy="250" r="170" fill="none" stroke="#66BB6A" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+
+  <!-- Rotating Recycle Symbol Outer Arrows -->
+  <g stroke="url(#greenGrad)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85">
+    <!-- Arrow 1 Top -->
+    <path d="M 230 110 A 160 160 0 0 1 370 110" />
+    <polygon points="375,110 360,98 362,120" fill="#2E7D32"/>
+
+    <!-- Arrow 2 Right -->
+    <path d="M 430 220 A 160 160 0 0 1 360 370" />
+    <polygon points="360,375 372,360 352,358" fill="#2E7D32"/>
+
+    <!-- Arrow 3 Left -->
+    <path d="M 170 280 A 160 160 0 0 1 230 130" />
+    <polygon points="228,125 225,142 242,138" fill="#2E7D32"/>
+  </g>
+
+  <!-- Laptop Container -->
+  <g filter="url(#shadow)" transform="translate(160, 160)">
+    <!-- Base -->
+    <rect x="20" y="140" width="240" height="16" rx="8" fill="#37474F"/>
+    <path d="M 100 140 L 180 140 L 170 148 L 110 148 Z" fill="#78909C"/>
+    <!-- Screen -->
+    <rect x="40" y="20" width="200" height="125" rx="10" fill="#1B4332" stroke="#2E7D32" stroke-width="4"/>
+    <rect x="48" y="28" width="184" height="109" rx="6" fill="#F7FBF7"/>
+    
+    <!-- Screen Contents: Circuit & Eco Leaf -->
+    <path d="M 60 70 L 90 70 L 110 90 L 140 90" stroke="#43A047" stroke-width="3" fill="none"/>
+    <circle cx="60" cy="70" r="4" fill="#2E7D32"/>
+    <circle cx="140" cy="90" r="4" fill="#2E7D32"/>
+    <path d="M 130 50 L 160 50 L 180 70" stroke="#66BB6A" stroke-width="3" fill="none"/>
+    <circle cx="180" cy="70" r="4" fill="#66BB6A"/>
+
+    <!-- Stylized Green Leaf on Screen -->
+    <path d="M 140 75 Q 165 40 185 70 Q 160 95 140 75 Z" fill="url(#greenGrad)"/>
+    <path d="M 140 75 Q 165 65 185 70" stroke="#E8F5E9" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Smartphone Graphic -->
+  <g filter="url(#shadow)" transform="translate(370, 230)">
+    <rect x="0" y="0" width="85" height="160" rx="16" fill="#1B4332" stroke="#43A047" stroke-width="3"/>
+    <rect x="5" y="10" width="75" height="140" rx="10" fill="#FFFFFF"/>
+    <!-- Battery Level Green Icon -->
+    <rect x="25" y="40" width="35" height="60" rx="6" fill="none" stroke="#2E7D32" stroke-width="3"/>
+    <rect x="37" y="34" width="11" height="6" fill="#2E7D32"/>
+    <rect x="29" y="55" width="27" height="40" rx="3" fill="#43A047"/>
+    <!-- Eco leaf micro -->
+    <path d="M 42 75 L 42 60 M 42 67 L 49 62" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Components / Chips -->
+  <g filter="url(#shadow)" transform="translate(110, 110)">
+    <rect x="0" y="0" width="60" height="60" rx="8" fill="#2E7D32"/>
+    <rect x="12" y="12" width="36" height="36" rx="4" fill="#1B4332"/>
+    <!-- CPU Pins -->
+    <line x1="10" y1="0" x2="10" y2="-8" stroke="#43A047" stroke-width="3"/>
+    <line x1="30" y1="0" x2="30" y2="-8" stroke="#43A047" stroke-width="3"/>
+    <line x1="50" y1="0" x2="50" y2="-8" stroke="#43A047" stroke-width="3"/>
+    <line x1="60" y1="20" x2="68" y2="20" stroke="#43A047" stroke-width="3"/>
+    <line x1="60" y1="40" x2="68" y2="40" stroke="#43A047" stroke-width="3"/>
+    <circle cx="30" cy="30" r="8" fill="#81C784"/>
+  </g>
+
+  <!-- Green Sprouts & Leaves Floating -->
+  <g transform="translate(420, 120)">
+    <path d="M 20 50 Q 0 20 30 0 Q 40 30 20 50 Z" fill="#66BB6A"/>
+    <path d="M 20 50 Q 50 30 40 10 Q 25 35 20 50 Z" fill="#2E7D32"/>
+    <path d="M 20 50 L 20 65" stroke="#1B4332" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(130, 360)">
+    <path d="M 15 40 Q -5 15 20 0 Q 30 25 15 40 Z" fill="#43A047"/>
+    <path d="M 15 40 Q 40 25 30 5 Q 18 28 15 40 Z" fill="#81C784"/>
+    <path d="M 15 40 L 15 55" stroke="#1B4332" stroke-width="3"/>
+  </g>
+</svg>

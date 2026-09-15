@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <rect x="40" y="30" width="220" height="130" rx="10" fill="#1B4332" stroke="#43A047" stroke-width="4"/>
+  <rect x="50" y="40" width="200" height="110" rx="6" fill="#E8F5E9"/>
+  <!-- Display Eco Graphic -->
+  <circle cx="150" cy="95" r="30" fill="#66BB6A" opacity="0.25"/>
+  <path d="M 140 100 Q 155 70 170 95 Q 150 115 140 100 Z" fill="#2E7D32"/>
+  <!-- Stand -->
+  <rect x="135" y="160" width="30" height="25" fill="#37474F"/>
+  <ellipse cx="150" cy="188" rx="55" ry="8" fill="#37474F"/>
+  <text x="150" y="210" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">HD / LED Monitor</text>
+</svg>

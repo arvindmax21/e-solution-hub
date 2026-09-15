@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect x="0" y="0" width="800" height="450" fill="#E8F5E9"/>
+  <!-- Grid Map Lines -->
+  <g stroke="#C8E6C9" stroke-width="4">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+  <!-- Main Roads -->
+  <path d="M 0 150 Q 250 180 400 130 T 800 210" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+  <path d="M 0 150 Q 250 180 400 130 T 800 210" fill="none" stroke="#A5D6A7" stroke-width="12"/>
+  
+  <path d="M 380 0 Q 420 200 400 450" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+  <path d="M 380 0 Q 420 200 400 450" fill="none" stroke="#A5D6A7" stroke-width="12"/>
+
+  <!-- Location Pin for Pune, Maharashtra -->
+  <g transform="translate(400, 130)">
+    <path d="M 0 0 C -25 -35 -35 -60 0 -90 C 35 -60 25 -35 0 0 Z" fill="#2E7D32" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="0" cy="-55" r="14" fill="#FFFFFF"/>
+    <circle cx="0" cy="-55" r="7" fill="#43A047"/>
+  </g>
+
+  <!-- Location Card Badge Overlay -->
+  <rect x="250" y="270" width="300" height="110" rx="16" fill="#FFFFFF" opacity="0.95" stroke="#2E7D32" stroke-width="2"/>
+  <text x="400" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold" font-size="20" fill="#1B4332">E-Solution Hub HQ</text>
+  <text x="400" y="338" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#2E7D32">Pune, Maharashtra, India</text>
+  <text x="400" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-style="italic" fill="#66BB6A">(Interactive Map Visual Demo)</text>
+</svg>

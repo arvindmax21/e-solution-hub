@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your E-Waste | E-Solution Hub</title>
+    <meta name="description" content="Submit details of your unwanted electronic items to discover responsible buyback, reuse, or eco recycling options with E-Solution Hub.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">E</div>
+                <div>
+                    <span>E-Solution Hub</span>
+                    <span class="logo-sub">Sustainable Tech Marketplace</span>
+                </div>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger-label" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Buy E-Waste</a>
+                <a href="sell.html" class="nav-link active">Sell E-Waste</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="sell.html" class="btn btn-primary btn-sm">Sell E-Waste</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Sell Your E-Waste</h1>
+                <p>Have unused or unwanted electronics? Submit your item details and discover a responsible way to give your electronics a second life.</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> &bull; <span>Sell E-Waste</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAIN SELL SECTION -->
+        <section class="section-padding">
+            <div class="container">
+                
+                <div class="demo-banner">
+                    <span>💡 <strong>Front-End UI Demonstration:</strong> This submission form is a static UI prototype developed for portfolio presentation. Data is not sent to a live server.</span>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Left: Form Container -->
+                    <div class="form-container">
+                        <h2 style="margin-bottom: 0.5rem;">E-Waste Submission Form</h2>
+                        <p style="margin-bottom: 2rem;">Fill out the details of your electronic item below for valuation and collection assessment.</p>
+
+                        <form action="#" method="get" onsubmit="alert('Demo Submission: Form UI tested successfully!'); return false;">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label" for="fullname">Full Name *</label>
+                                    <input type="text" id="fullname" class="form-control" placeholder="e.g. Rahul Sharma" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email Address *</label>
+                                    <input type="email" id="email" class="form-control" placeholder="rahul@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="category">Product Category *</label>
+                                    <select id="category" class="form-control" required>
+                                        <option value="">Select Category</option>
+                                        <option value="laptops">Laptops</option>
+                                        <option value="smartphones">Smartphones &amp; Tablets</option>
+                                        <option value="computers">Computers &amp; CPU Cabinets</option>
+                                        <option value="monitors">Monitors &amp; Displays</option>
+                                        <option value="printers">Printers &amp; Scanners</option>
+                                        <option value="routers">Wi-Fi Routers &amp; Networking</option>
+                                        <option value="components">Computer Components &amp; RAM</option>
+                                        <option value="accessories">Chargers &amp; Accessories</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="prodname">Product Name *</label>
+                                    <input type="text" id="prodname" class="form-control" placeholder="e.g. ThinkPad T480" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="brand">Brand / Manufacturer</label>
+                                    <input type="text" id="brand" class="form-control" placeholder="e.g. Lenovo, Dell, HP, Samsung">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="model">Model Number / Year</label>
+                                    <input type="text" id="model" class="form-control" placeholder="e.g. 2019 / Model X12">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="condition">Item Condition *</label>
+                                    <select id="condition" class="form-control" required>
+                                        <option value="">Select Condition</option>
+                                        <option value="working">Fully Working / Like New</option>
+                                        <option value="good">Good (Minor Wear)</option>
+                                        <option value="repairable">Repairable / Minor Fault</option>
+                                        <option value="parts">For Parts / Non-working</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="quantity">Quantity *</label>
+                                    <input type="number" id="quantity" class="form-control" value="1" min="1" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="expected_price">Expected Price (₹)</label>
+                                    <input type="number" id="expected_price" class="form-control" placeholder="e.g. 3500">
+                                </div>
+                                <div class="form-group full-width">
+                                    <label class="form-label" for="location">Pickup Location / Address *</label>
+                                    <input type="text" id="location" class="form-control" placeholder="City, Area, Pincode (e.g. Kothrud, Pune)" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label class="form-label" for="description">Detailed Description &amp; Faults</label>
+                                    <textarea id="description" class="form-control" placeholder="Mention working status, battery health, missing accessories, or physical condition details..."></textarea>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label class="form-label">Upload Product Image (Static UI Demonstration)</label>
+                                    <div class="file-upload-box">
+                                        <input type="file" id="file-input" style="display: none;">
+                                        <label for="file-input" style="cursor: pointer;">
+                                            <div style="font-size: 2rem; color: var(--primary-green);">📷</div>
+                                            <div style="font-weight: 600; color: var(--dark-green); margin-top: 0.5rem;">Click to Select Product Image</div>
+                                            <div style="font-size: 0.82rem; color: var(--text-muted);">Supports JPG, PNG, WEBP (Max 5MB)</div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 1.5rem;">
+                                <button type="submit" class="btn btn-primary btn-block" style="padding: 1.1rem;">Submit E-Waste Request</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Right: Info Guidance Panel -->
+                    <div>
+                        <div class="contact-info-box">
+                            <span class="section-tag">Guidance</span>
+                            <h3 style="margin-bottom: 1.2rem;">What Can You Sell?</h3>
+                            <p style="margin-bottom: 1.5rem;">We evaluate and collect a comprehensive range of personal and business electronic items:</p>
+                            
+                            <ul style="display: flex; flex-direction: column; gap: 0.8rem;">
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Laptops &amp; Notebooks:</strong> All brands, working or faulty.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Smartphones &amp; Tablets:</strong> Android, iOS, functional screens.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Desktop Computers &amp; CPUs:</strong> Complete towers or cabinets.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Monitors &amp; Displays:</strong> LCD, LED screens in working order.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Printers &amp; Scanners:</strong> Inkjet, laser, desktop printers.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Networking Hardware:</strong> Wi-Fi routers, modems, switches.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Internal Components:</strong> RAM sticks, GPUs, hard drives, SSDs.</span>
+                                </li>
+                                <li style="display: flex; gap: 0.8rem; align-items: center;">
+                                    <span style="color: var(--primary-green); font-weight: bold;">✔</span>
+                                    <span><strong>Chargers &amp; Accessories:</strong> Keyboards, mice, adapters.</span>
+                                </li>
+                            </ul>
+
+                            <div style="margin-top: 2.2rem; padding: 1.2rem; background-color: var(--light-green); border-radius: var(--radius-sm);">
+                                <h4 style="color: var(--dark-green); margin-bottom: 0.4rem;">🔒 Data Safety Tip</h4>
+                                <p style="font-size: 0.88rem; margin: 0;">Please remember to back up personal files and execute a factory reset on your device prior to submitting items.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: var(--white); margin-bottom: 1rem;">
+                        <div class="logo-icon">E</div>
+                        <span>E-Solution Hub</span>
+                    </a>
+                    <p>"Turn E-Waste into a Better Future."</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Buy E-Waste</a></li>
+                        <li><a href="sell.html">Sell E-Waste</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support &amp; Portal</h4>
+                    <ul class="footer-links">
+                        <li><a href="policy.html">E-Waste Policy</a></li>
+                        <li><a href="login.html">User Login</a></li>
+                        <li><a href="admin-login.html">Admin Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>📍 Pune, Maharashtra, India</p>
+                    <p>✉️ support@esolutionhub.example</p>
+                    <p>📞 +91 90000 00000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 E-Solution Hub. Conceptual College Portfolio Project.</div>
+                <div>Built with <strong>HTML5 &amp; CSS3</strong> | GitHub Pages Ready</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

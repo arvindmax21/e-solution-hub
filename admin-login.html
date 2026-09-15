@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal Login | E-Solution Hub</title>
+    <meta name="description" content="Administrative control portal login for E-Solution Hub marketplace operations and request management.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">E</div>
+                <div>
+                    <span>E-Solution Hub</span>
+                    <span class="logo-sub">Sustainable Tech Marketplace</span>
+                </div>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger-label" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Buy E-Waste</a>
+                <a href="sell.html" class="nav-link">Sell E-Waste</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="sell.html" class="btn btn-primary btn-sm">Sell E-Waste</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Admin Control Portal</h1>
+                <p>Authorized access for platform management, inventory verification, and pickup dispatching.</p>
+            </div>
+        </section>
+
+        <!-- ADMIN LOGIN FORM WRAPPER -->
+        <section class="section-padding">
+            <div class="container">
+
+                <div class="auth-wrapper">
+                    <!-- Left: Security Shield Side -->
+                    <div class="auth-side-graphic" style="background: linear-gradient(135deg, #102A1E, #1B4332);">
+                        <div style="width: 170px; height: 170px; margin-bottom: 1.5rem;">
+                            <img src="admin-shield.svg" alt="Admin Security Shield Graphic">
+                        </div>
+                        <h2 style="color: var(--white);">Secure Operations</h2>
+                        <p style="color: #A3E0AF;">Platform management, valuation auditing, and verified recycling partner oversight.</p>
+                    </div>
+
+                    <!-- Right: Admin Form -->
+                    <div class="auth-form-container">
+                        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem;">
+                            <span style="font-size: 1.5rem;">🛡️</span>
+                            <h2 style="margin: 0;">Admin Portal</h2>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">E-Solution Hub Operations Dashboard Access.</p>
+
+                        <div class="demo-banner" style="font-size: 0.8rem; margin-bottom: 1.5rem; background-color: #EDE7F6; color: #4A148C; border-color: #D1C4E9;">
+                            <span>🔐 <strong>Demo Interface:</strong> Backend authentication is not connected. Credentials are not validated.</span>
+                        </div>
+
+                        <form action="#" method="get" onsubmit="alert('Demo Admin Login: Static security UI tested successfully!'); return false;">
+                            <div class="form-group">
+                                <label class="form-label" for="admin-id">Admin ID / Officer Code</label>
+                                <input type="text" id="admin-id" class="form-control" placeholder="e.g. ADM-99401" value="ADM-SAMPLE" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="admin-password">Security Password</label>
+                                <input type="password" id="admin-password" class="form-control" placeholder="••••••••••••" value="adminpassword" required>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" style="padding: 1rem; background-color: var(--dark-green);">Admin Login</button>
+                        </form>
+
+                        <div style="margin-top: 2rem; font-size: 0.82rem; text-align: center; color: var(--text-muted);">
+                            Need administrative clearance? Contact platform operations at support@esolutionhub.example
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: var(--white); margin-bottom: 1rem;">
+                        <div class="logo-icon">E</div>
+                        <span>E-Solution Hub</span>
+                    </a>
+                    <p>"Turn E-Waste into a Better Future."</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Buy E-Waste</a></li>
+                        <li><a href="sell.html">Sell E-Waste</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support &amp; Portal</h4>
+                    <ul class="footer-links">
+                        <li><a href="policy.html">E-Waste Policy</a></li>
+                        <li><a href="login.html">User Login</a></li>
+                        <li><a href="admin-login.html">Admin Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>📍 Pune, Maharashtra, India</p>
+                    <p>✉️ support@esolutionhub.example</p>
+                    <p>📞 +91 90000 00000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 E-Solution Hub. Conceptual College Portfolio Project.</div>
+                <div>Built with <strong>HTML5 &amp; CSS3</strong> | GitHub Pages Ready</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

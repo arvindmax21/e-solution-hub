@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <!-- Keyboard -->
+  <rect x="40" y="40" width="130" height="60" rx="6" fill="#37474F" stroke="#2E7D32" stroke-width="2"/>
+  <rect x="48" y="48" width="114" height="44" rx="4" fill="#1B4332"/>
+  <!-- Key dots -->
+  <circle cx="60" cy="58" r="3" fill="#66BB6A"/>
+  <circle cx="75" cy="58" r="3" fill="#66BB6A"/>
+  <circle cx="90" cy="58" r="3" fill="#66BB6A"/>
+  <circle cx="105" cy="58" r="3" fill="#66BB6A"/>
+
+  <!-- Mouse -->
+  <rect x="195" y="40" width="55" height="80" rx="26" fill="#1B4332" stroke="#43A047" stroke-width="3"/>
+  <line x1="222" y1="40" x2="222" y2="70" stroke="#66BB6A" stroke-width="2"/>
+  <circle cx="222" cy="65" r="4" fill="#81C784"/>
+
+  <!-- Router / Charger -->
+  <rect x="60" y="115" width="100" height="45" rx="6" fill="#2E7D32"/>
+  <line x1="75" y1="115" x2="75" y2="95" stroke="#43A047" stroke-width="3"/>
+  <line x1="145" y1="115" x2="145" y2="95" stroke="#43A047" stroke-width="3"/>
+
+  <text x="150" y="205" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">Peripherals &amp; Accessories</text>
+</svg>

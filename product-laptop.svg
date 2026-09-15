@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <rect x="50" y="40" width="200" height="120" rx="8" fill="#1B4332" stroke="#43A047" stroke-width="4"/>
+  <rect x="58" y="48" width="184" height="104" rx="4" fill="#E8F5E9"/>
+  <!-- Display Wallpaper / Logo -->
+  <circle cx="150" cy="100" r="28" fill="#43A047" opacity="0.3"/>
+  <path d="M 150 82 Q 165 70 172 88 Q 158 100 150 82 Z" fill="#2E7D32"/>
+  <path d="M 150 100 Q 135 110 130 95 Q 142 85 150 100 Z" fill="#66BB6A"/>
+  <!-- Laptop Base -->
+  <path d="M 30 170 L 270 170 L 255 186 L 45 186 Z" fill="#37474F"/>
+  <path d="M 120 170 L 180 170 L 175 174 L 125 174 Z" fill="#78909C"/>
+  <text x="150" y="210" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">Refurbished Laptop</text>
+</svg>

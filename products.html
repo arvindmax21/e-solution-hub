@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore E-Waste Products | E-Solution Hub</title>
+    <meta name="description" content="Browse our catalog of 20+ pre-owned, refurbished, and reusable electronic devices, components, and e-waste items.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">E</div>
+                <div>
+                    <span>E-Solution Hub</span>
+                    <span class="logo-sub">Sustainable Tech Marketplace</span>
+                </div>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger-label" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link active">Buy E-Waste</a>
+                <a href="sell.html" class="nav-link">Sell E-Waste</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="sell.html" class="btn btn-primary btn-sm">Sell E-Waste</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Explore E-Waste Marketplace</h1>
+                <p>Discover pre-owned, refurbished, and reusable electronics available for buyback or secondary usage.</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> &bull; <span>Products</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT MARKETPLACE GRID -->
+        <section class="section-padding">
+            <div class="container">
+                <!-- STATIC FILTER CONTROL UI BAR -->
+                <div class="filter-bar">
+                    <div class="filter-categories">
+                        <button class="filter-btn active">All Items (22)</button>
+                        <button class="filter-btn">Laptops</button>
+                        <button class="filter-btn">Smartphones</button>
+                        <button class="filter-btn">Monitors</button>
+                        <button class="filter-btn">Storage &amp; RAM</button>
+                        <button class="filter-btn">Components</button>
+                    </div>
+                    <div style="font-size: 0.88rem; color: var(--text-muted);">
+                        Showing <strong>22 Demo E-Waste Items</strong>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+
+                    <!-- 1. Laptop -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-refurbished product-badge-top">Refurbished</span>
+                            <img src="product-laptop.svg" alt="Used Business Laptop">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Laptops</div>
+                            <h3 class="product-title">Refurbished Business Laptop</h3>
+                            <p class="product-description">Intel Core i5, 8 GB RAM, 256 GB SSD. Fully cleaned and tested.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹8,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Desktop -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-good product-badge-top">Good Condition</span>
+                            <img src="product-desktop.svg" alt="Desktop Computer">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Computers</div>
+                            <h3 class="product-title">Desktop Computer Tower</h3>
+                            <p class="product-description">Intel i3 Processor, 4GB RAM, 500GB HDD. Great for basic office tasks.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹5,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. LCD Monitor -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-working product-badge-top">Working</span>
+                            <img src="product-monitor.svg" alt="LCD Monitor">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Monitors</div>
+                            <h3 class="product-title">19-inch LCD Monitor</h3>
+                            <p class="product-description">Standard 720p display panel with VGA input. Tested working condition.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹2,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. LED Monitor -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-good product-badge-top">Good Condition</span>
+                            <img src="product-monitor.svg" alt="LED Monitor">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Monitors</div>
+                            <h3 class="product-title">22-inch Full HD LED Monitor</h3>
+                            <p class="product-description">VGA &amp; HDMI support, slim bezel design. Clear display without dead pixels.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹3,000</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Keyboard -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-accessories.svg" alt="USB Keyboard">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">Standard USB Keyboard</h3>
+                            <p class="product-description">Full size membrane keyboard with numeric keypad. All keys working.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹250</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Mouse -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-accessories.svg" alt="Optical Mouse">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">Optical USB Mouse</h3>
+                            <p class="product-description">Compact wired USB mouse with responsive optical sensor.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹150</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Smartphone -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-phone.svg" alt="Smartphone">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Smartphones</div>
+                            <h3 class="product-title">Android Smartphone (32GB)</h3>
+                            <p class="product-description">4G dual-SIM handset, functional screen and camera, minor back scratch.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹4,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8. Tablet -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-good product-badge-top">Good Condition</span>
+                            <img src="product-phone.svg" alt="Tablet Device">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Smartphones</div>
+                            <h3 class="product-title">8-inch Media Tablet</h3>
+                            <p class="product-description">Wi-Fi tablet with 16GB storage, suitable for reading and video playback.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹3,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 9. Printer -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-repairable product-badge-top">Repairable</span>
+                            <img src="product-printer.svg" alt="Desktop Printer">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Printers</div>
+                            <h3 class="product-title">All-in-One Inkjet Printer</h3>
+                            <p class="product-description">Requires cartridge refilling or head alignment. Electronics intact.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹1,800</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 10. CPU Cabinet -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-desktop.svg" alt="ATX CPU Cabinet">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Computers</div>
+                            <h3 class="product-title">ATX Mid-Tower CPU Cabinet</h3>
+                            <p class="product-description">Sturdy metal computer chassis with front USB ports and cooling fan mounts.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹1,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 11. Hard Disk -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-working product-badge-top">Working</span>
+                            <img src="product-storage.svg" alt="500GB HDD">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Storage Devices</div>
+                            <h3 class="product-title">500GB SATA Hard Disk Drive</h3>
+                            <p class="product-description">3.5-inch desktop hard drive, formatted and wiped according to data policy.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹700</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 12. SSD -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-good product-badge-top">Good Condition</span>
+                            <img src="product-storage.svg" alt="256GB SSD">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Storage Devices</div>
+                            <h3 class="product-title">256GB 2.5-inch SATA SSD</h3>
+                            <p class="product-description">High-speed solid state drive. Health status 95%+, wiped and tested.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹1,200</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 13. RAM Stick -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-working product-badge-top">Working</span>
+                            <img src="product-components.svg" alt="8GB DDR4 RAM">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Components</div>
+                            <h3 class="product-title">8GB DDR4 Desktop RAM</h3>
+                            <p class="product-description">2666MHz DIMM memory module. Tested error-free with MemTest.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹600</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 14. Wi-Fi Router -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-accessories.svg" alt="Wireless Router">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">Single-Band Wi-Fi Router</h3>
+                            <p class="product-description">300Mbps wireless N router with power adapter and Ethernet cable.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹400</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 15. DVD Player -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-accessories.svg" alt="DVD Player">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">Compact DVD Player</h3>
+                            <p class="product-description">Standalone optical media player with RCA AV output. Functional laser unit.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹300</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 16. UPS -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-repairable product-badge-top">Repairable</span>
+                            <img src="product-desktop.svg" alt="600VA Line Interactive UPS">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">600VA Desktop UPS System</h3>
+                            <p class="product-description">Chassis &amp; main board operational. Battery replacement recommended.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹900</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 17. Speakers -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-good product-badge-top">Good Condition</span>
+                            <img src="product-accessories.svg" alt="2.0 Stereo Speakers">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">2.0 USB Stereo Speakers</h3>
+                            <p class="product-description">Compact desktop speakers powered by USB with 3.5mm audio jack.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 18. Graphics Card -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-refurbished product-badge-top">Refurbished</span>
+                            <img src="product-components.svg" alt="2GB GPU">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Components</div>
+                            <h3 class="product-title">2GB GDDR5 Graphics Card</h3>
+                            <p class="product-description">PCIe GPU module with HDMI/DVI ports. Repasted and thermal benchmarked.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹2,500</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 19. Power Supply -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-working product-badge-top">Working</span>
+                            <img src="product-components.svg" alt="450W PSU">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Components</div>
+                            <h3 class="product-title">450W ATX Power Supply Unit</h3>
+                            <p class="product-description">Tested voltage outputs on 12V, 5V, and 3.3V rails with quiet cooling fan.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹650</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 20. Mobile Charger Lot -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-used product-badge-top">Used</span>
+                            <img src="product-accessories.svg" alt="Charger Bundle">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Accessories</div>
+                            <h3 class="product-title">Assorted Mobile Charger Lot (5 Pack)</h3>
+                            <p class="product-description">Assortment of functional Micro-USB and USB Type-C wall adapters.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹350</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 21. Mixed Circuit Boards -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-parts product-badge-top">For Parts</span>
+                            <img src="product-components.svg" alt="PCB Boards">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Components</div>
+                            <h3 class="product-title">Mixed Circuit Boards Lot (1kg)</h3>
+                            <p class="product-description">Salvageable printed circuit boards containing precious component metals for metal recovery.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹1,000</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 22. Electronic Components -->
+                    <div class="product-card">
+                        <div class="product-thumb">
+                            <span class="badge badge-working product-badge-top">Working</span>
+                            <img src="product-components.svg" alt="Electronic Parts Kit">
+                        </div>
+                        <div class="product-details-content">
+                            <div class="product-category">Components</div>
+                            <h3 class="product-title">Electronic Parts &amp; Connectors Kit</h3>
+                            <p class="product-description">Recovered capacitors, switches, LEDs and ribbon cables suitable for student projects.</p>
+                            <div class="product-price-row">
+                                <div>
+                                    <div class="product-price">₹800</div>
+                                    <span class="sample-price-tag">Sample Price</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <a href="product-details.html" class="btn btn-secondary btn-sm">View Details</a>
+                                <a href="sell.html" class="btn btn-primary btn-sm">Request</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: var(--white); margin-bottom: 1rem;">
+                        <div class="logo-icon">E</div>
+                        <span>E-Solution Hub</span>
+                    </a>
+                    <p>"Turn E-Waste into a Better Future."</p>
+                    <p style="margin-top: 0.8rem; font-size: 0.88rem;">Buy, sell and responsibly manage electronic waste while contributing to a cleaner and greener planet.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Buy E-Waste</a></li>
+                        <li><a href="sell.html">Sell E-Waste</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support &amp; Portal</h4>
+                    <ul class="footer-links">
+                        <li><a href="policy.html">E-Waste Policy</a></li>
+                        <li><a href="login.html">User Login</a></li>
+                        <li><a href="admin-login.html">Admin Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>📍 Pune, Maharashtra, India</p>
+                    <p>✉️ support@esolutionhub.example</p>
+                    <p>📞 +91 90000 00000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 E-Solution Hub. Conceptual College Portfolio Project.</div>
+                <div>Built with <strong>HTML5 &amp; CSS3</strong> | GitHub Pages Ready</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

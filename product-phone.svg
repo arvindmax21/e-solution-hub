@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="100%" height="100%">
+  <rect width="300" height="220" fill="#F4FBF4"/>
+  <!-- Phone 1 -->
+  <rect x="75" y="30" width="65" height="135" rx="12" fill="#1B4332" stroke="#43A047" stroke-width="3"/>
+  <rect x="80" y="40" width="55" height="115" rx="8" fill="#E8F5E9"/>
+  <circle cx="107" cy="143" r="4" fill="#2E7D32"/>
+
+  <!-- Tablet / Phone 2 -->
+  <rect x="155" y="25" width="80" height="145" rx="12" fill="#2E7D32" stroke="#66BB6A" stroke-width="3"/>
+  <rect x="160" y="35" width="70" height="125" rx="8" fill="#FFFFFF"/>
+  <path d="M 195 90 Q 210 70 215 90 Q 200 105 195 90 Z" fill="#43A047"/>
+  
+  <text x="150" y="200" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#2E7D32">Smartphones &amp; Tablets</text>
+</svg>
